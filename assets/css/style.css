@@ -352,7 +352,7 @@ section.session-testimonials {
     display:flex;
     align-items:center;
     justify-content:center;
-    gap:1.4rem;
+    gap:1.8rem;
     flex-wrap: wrap;
     padding: 1rem;
     position: relative;
@@ -649,6 +649,7 @@ footer {
 }
 
 /*****/
+
 
 
 
