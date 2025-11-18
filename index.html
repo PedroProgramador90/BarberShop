@@ -3,13 +3,80 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scaler=1.0" />
     <title>Barber Shop</title>
+    <!-- SEO -->
+    <meta name="description"
+        content="Barber Shop – Corte de cabelo masculino, barba e tratamentos capilares com estilo, qualidade e atendimento profissional. Agende seu horário pelo WhatsApp.">
+    <meta name="keywords"
+        content="barbearia, barber shop, corte de cabelo masculino, barba, degradê, barbeiro, salão masculino, corte moderno, barba perfeita, barbearia perto de mim">
+    <meta name="author" content="Barber Shop">
+    <link rel="canonical" href="https://barber-shop-pink.vercel.app/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Barber Shop | Corte, Barba e Tratamentos Profissionais">
+    <meta property="og:description"
+        content="Cortes modernos, barba alinhada e tratamentos capilares com excelência. Agende seu horário pelo WhatsApp.">
+    <meta property="og:image" content="https://barber-shop-pink.vercel.app/assets/img/banner.avif">
+    <meta property="og:url" content="https://barber-shop-pink.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Barber Shop">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Barber Shop | Corte, Barba e Tratamentos Profissionais">
+    <meta name="twitter:description" content="Cortes, barba e tratamentos capilares com profissionais qualificados.">
+    <meta name="twitter:image" content="https://barber-shop-pink.vercel.app/assets/img/banner.avif">
+
+    <!-- Acessibilidade -->
+    <meta name="theme-color" content="#000000">
+    <meta name="robots" content="index, follow">
+
+    <!-- Dados Estruturados (Google SEO LocalBusiness) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Barbershop",
+      "name": "Barber Shop",
+      "image": "https://barber-shop-pink.vercel.app/assets/img/banner.avif",
+      "description": "Cortes masculinos, barba, degradê e tratamentos capilares com atendimento profissional.",
+      "@id": "https://barber-shop-pink.vercel.app/",
+      "url": "https://barber-shop-pink.vercel.app/",
+      "telephone": "+55-24-99999-8888",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua das Flores, 123",
+        "addressLocality": "Cidade",
+        "addressRegion": "Estado",
+        "postalCode": "00000-000",
+        "addressCountry": "BR"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/",
+        "https://www.facebook.com/",
+        "https://x.com/"
+      ]
+    }
+    </script>
     <!--link css-->
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/media.css"/>
+    <link rel="stylesheet" href="./assets/css/media.css" />
     <!---->
-    <link rel="icon" type="image/png" href="./assets/img/barber-shop.png"/>
+    <link rel="icon" type="image/png" href="./assets/img/barber-shop.png" />
 </head>
 
 <body>
@@ -24,28 +91,28 @@
                 </div>
                 <nav class="desktop-nav">
                     <ul>
-                        <li><a class="active" href="#home">Início</a></li>
-                        <li><a href="#services">Serviços</a></li>
-                        <li><a href="#testimonials">Depoimentos</a></li>
-                        <li><a href="#gallery">Galeria</a></li>
-                        <li><a href="#contact">Contato</a></li>
+                        <li><a title="Início" class="active" href="#home">Início</a></li>
+                        <li><a title="Serviços" href="#services">Serviços</a></li>
+                        <li><a title="Depoimentos" href="#testimonials">Depoimentos</a></li>
+                        <li><a title="Galeria" href="#gallery">Galeria</a></li>
+                        <li><a title="Contato" href="#contact">Contato</a></li>
                     </ul>
                 </nav>
                 <div class="list-mobile" id="list-mobile">
-                    <img src="./assets/img/menu.png" alt="menu"/>
+                    <img src="./assets/img/menu.png" alt="menu" />
                 </div>
                 <div class="menu-mobile" id="menu-mobile">
                     <div class="btn-close">
-                        <img src="./assets/img/close.png" alt="close"/>
+                        <img src="./assets/img/close.png" alt="close" />
                     </div>
                     <nav class="nav-mobile">
-                       <ul>
+                        <ul>
                             <li><a class="active" href="#home">Início</a></li>
                             <li><a href="#services">Serviços</a></li>
                             <li><a href="#testimonials">Depoimentos</a></li>
                             <li><a href="#gallery">Galeria</a></li>
                             <li><a href="#contact">Contato</a></li>
-                       </ul>
+                        </ul>
                     </nav>
                 </div>
                 <div class="overlay-menu" id="overlay-menu"></div>
@@ -61,9 +128,10 @@
                 <h2>Barber Shop</h2>
                 <p>O melhor lugar para o seu corte de cabelo e barba.</p>
                 <div class="button-banner">
-                    <a href="https://wa.me/5524999999999?text=Ol%C3%A1,+quero+agendar+um+corte+de+cabelo" target="_blank">
+                    <a href="https://wa.me/5524999999999?text=Ol%C3%A1,+quero+agendar+um+corte+de+cabelo"
+                        target="_blank">
                         <button class="btn-banner">
-                            <span>Agendar agora  <i class="fa-brands fa-whatsapp"></i></span>
+                            <span>Agendar agora <i class="fa-brands fa-whatsapp"></i></span>
                         </button>
                     </a>
                 </div>
@@ -192,7 +260,7 @@
                 </div>
                 <div class="info-contact">
                     <div class="title-location">
-                        <h2><i class="fa-solid fa-location-dot"></i>  Local:</h2>
+                        <h2><i class="fa-solid fa-location-dot"></i> Local:</h2>
                         <p>Rua das <span>Flores</span>, 123, Centro, Cidade, Estado</p>
                     </div>
                     <div class="tel-contact">
@@ -209,25 +277,26 @@
     </section>
     <!---->
     <!--footer-->
-   <footer>
-      <div class="container-all">
-        <div class="wrapper-footer">
-             <div class="logo-brands">
+    <footer>
+        <div class="container-all">
+            <div class="wrapper-footer">
+                <div class="logo-brands">
                     <img src="./assets/img/barber-shop.png" alt="barber-shop" />
                     <h2>Barber Shop</h2>
                     <img src="./assets/img/barber-shop.png" alt="barber-shop" />
-             </div>
-             <div class="social-icons">
-                <a href="#https://www.instagram.com/accounts/emailsignup/"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#https://www.facebook.com/?locale=pt_BR"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#https://x.com/?lang=pt"><i class="fa-brands fa-twitter"></i></a>
-             </div>
-             <div class="term-footer">
-                <p>©2025 <span>Barber Shop</span>, Desenvolvido por <span>PedroSites</span>.</p>
-             </div>
+                </div>
+                <div class="social-icons">
+                    <a href="#https://www.instagram.com/accounts/emailsignup/"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="#https://www.facebook.com/?locale=pt_BR"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#https://x.com/?lang=pt"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="term-footer">
+                    <p>©2025 <span>Barber Shop</span>, Desenvolvido por <span>PedroSites</span>.</p>
+                </div>
+            </div>
         </div>
-      </div>
-   </footer>
+    </footer>
     <!---->
     <!--font awesome-->
     <script src="https://kit.fontawesome.com/b8f9f3da7a.js" crossorigin="anonymous"></script>
