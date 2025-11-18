@@ -1,0 +1,14 @@
+/* Cores da página */
+:root {
+  --color-one:#121721;
+  --color-two:#ffffff;
+  --color-tree:#fdfcfc46;
+  --color-four:#fa0000;
+  --color-five:#a8a8a8;
+  --color-six:rgba(120, 120, 120, 0.397);
+  --color-seven:#1e2533;
+  --color-eight:#000;
+  --color-nine:rgba(0,0,0,0.7);
+}
+
+/*****/

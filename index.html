@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop</title>
+    <!--link css-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/media.css"/>
+    <!---->
+    <link rel="icon" type="image/png" href="./assets/img/barber-shop.png"/>
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <div class="container-all">
+            <div class="wrapper-flex">
+                <div class="logo-brands">
+                    <img src="./assets/img/barber-shop.png" alt="barber-shop" />
+                    <h2>Barber Shop</h2>
+                    <img src="./assets/img/barber-shop.png" alt="barber-shop" />
+                </div>
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a class="active" href="#home">Início</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#testimonials">Depoimentos</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="list-mobile" id="list-mobile">
+                    <img src="./assets/img/menu.png" alt="menu"/>
+                </div>
+                <div class="menu-mobile" id="menu-mobile">
+                    <div class="btn-close">
+                        <img src="./assets/img/close.png" alt="close"/>
+                    </div>
+                    <nav class="nav-mobile">
+                       <ul>
+                            <li><a class="active" href="#home">Início</a></li>
+                            <li><a href="#services">Serviços</a></li>
+                            <li><a href="#testimonials">Depoimentos</a></li>
+                            <li><a href="#gallery">Galeria</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                       </ul>
+                    </nav>
+                </div>
+                <div class="overlay-menu" id="overlay-menu"></div>
+            </div>
+        </div>
+    </header>
+    <!---->
+    <!--main-->
+    <main id="home"
+        style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)), url('./assets/img/banner.avif');">
+        <div class="container-all">
+            <div class="title-main">
+                <h2>Barber Shop</h2>
+                <p>O melhor lugar para o seu corte de cabelo e barba.</p>
+                <div class="button-banner">
+                    <a href="https://wa.me/5524999999999?text=Ol%C3%A1,+quero+agendar+um+corte+de+cabelo" target="_blank">
+                        <button class="btn-banner">
+                            <span>Agendar agora  <i class="fa-brands fa-whatsapp"></i></span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!---->
+    <!--section serviços-->
+    <section id="services" class="session-services">
+        <div class="container-all">
+            <div class="title-services">
+                <h2>Nossos Serviços</h2>
+                <div class="border-bottom"></div>
+            </div>
+            <div class="compartment-boxs">
+                <div class="box">
+                    <img src="./assets/img/corteCabelo.avif" alt="corteCabelo" />
+                    <div class="description">
+                        <h2>Corte de Cabelo</h2>
+                        <P>Corte de cabelo personalizado para seu estilo.</P>
+                        <p class="price">R$ 30,00</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./assets/img/Barba.avif" alt="barba" />
+                    <div class="description">
+                        <h2>Barba</h2>
+                        <P>Barba modelada e aparada com precisão. </P>
+                        <p class="price">R$ 15,00</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./assets/img/CorteBarba.avif" alt="CorteBarba" />
+                    <div class="description">
+                        <h2>Corte e Barba</h2>
+                        <P>Pacote completo com corte de cabelo e barba</P>
+                        <p class="price">R$ 40,00</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./assets/img/tratamento.avif" alt="tratamento" />
+                    <div class="description">
+                        <h2>Tratamento</h2>
+                        <P>Tratamentos capilares para um cabelo saudável.</P>
+                        <p class="price">R$ 25,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <!--section depoimentos-->
+    <section id="testimonials" class="session-testimonials">
+        <div class="container-all">
+            <div class="title-testimonials">
+                <h2>Depoimentos</h2>
+                <div class="border-bottom"></div>
+            </div>
+            <div class="division-testimonials">
+                <div class="card">
+                    <img src="./assets/img/profile1.png" alt="profile1">
+                    <h2>Leandro Marques</h2>
+                    <p>Excelente serviço e ambiente agradável.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/profile2.png" alt="profile2">
+                    <h2>Marcio Silva</h2>
+                    <p>Profissionais qualificados e atenciosos.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/profile3.png" alt="profile3">
+                    <h2>Gabriel Santos</h2>
+                    <p>Sempre saio satisfeito com o resultado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <!--section session-gallery-->
+    <section id="gallery" class="session-gallery">
+        <div class="container-all">
+            <div class="title-gallery">
+                <h2>Galeria de Cortes</h2>
+                <div class="border-bottom"></div>
+            </div>
+            <div class="gallery-imagens">
+                <div class="image-works">
+                    <img src="./assets/img/image01.avif" alt="image01">
+                    <img src="./assets/img/image02.avif" alt="image02">
+                    <img src="./assets/img/image03.avif" alt="image03">
+                    <img src="./assets/img/image04.avif" alt="image04">
+                    <img src="./assets/img/image05.avif" alt="image05">
+                    <img src="./assets/img/image06.avif" alt="image06">
+                    <img src="./assets/img/image07.avif" alt="image07">
+                    <img src="./assets/img/image08.avif" alt="image08">
+                    <img src="./assets/img/image09.avif" alt="image09">
+                    <img src="./assets/img/image10.avif" alt="image10">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <!--section-employees -->
+    <section id="contact" class="session-contact">
+        <div class="container-all">
+            <div class="title-contact">
+                <h2>Contato</h2>
+                <div class="border-bottom"></div>
+            </div>
+            <div class="partition-flex">
+                <div class="form">
+                    <form id="form" onsubmit="enviarWhats(event)">
+                        <div class="input-text">
+                            <span>Nome</span>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome" />
+                        </div>
+                        <div class="input-text">
+                            <span>Mensagem</span>
+                            <textarea name="mensagem" placeholder="Digite sua Mensagem" id="mensagem"
+                                rows="6"></textarea>
+                        </div>
+                        <div class="input-submit">
+                            <input type="submit" name="acao" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+                <div class="info-contact">
+                    <div class="title-location">
+                        <h2><i class="fa-solid fa-location-dot"></i>  Local:</h2>
+                        <p>Rua das <span>Flores</span>, 123, Centro, Cidade, Estado</p>
+                    </div>
+                    <div class="tel-contact">
+                        <h2><i class="fa-solid fa-phone"></i> Telefone:</h2>
+                        <p>(11)999-88888</p>
+                    </div>
+                    <div class="func-contact">
+                        <h2><i class="fa-solid fa-scissors"></i> Funcionamento:</h2>
+                        <p>Segunda a Sexta das <span>9h ás 19h</span>, Sábado das <span>9h ás 17h</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <!--footer-->
+   <footer>
+      <div class="container-all">
+        <div class="wrapper-footer">
+             <div class="logo-brands">
+                    <img src="./assets/img/barber-shop.png" alt="barber-shop" />
+                    <h2>Barber Shop</h2>
+                    <img src="./assets/img/barber-shop.png" alt="barber-shop" />
+             </div>
+             <div class="social-icons">
+                <a href="#https://www.instagram.com/accounts/emailsignup/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#https://www.facebook.com/?locale=pt_BR"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#https://x.com/?lang=pt"><i class="fa-brands fa-twitter"></i></a>
+             </div>
+             <div class="term-footer">
+                <p>©2025 <span>Barber Shop</span>, Desenvolvido por <span>PedroSites</span>.</p>
+             </div>
+        </div>
+      </div>
+   </footer>
+    <!---->
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/b8f9f3da7a.js" crossorigin="anonymous"></script>
+    <!---->
+    <!--script js-->
+    <script src="./assets/js/whats.js"></script>
+    <script src="./assets/js/menu.js"></script>
+    <!---->
+</body>
+
+</html>

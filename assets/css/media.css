@@ -1,0 +1,112 @@
+/*Media Queries*/
+@media screen and (max-width:880px){
+    form .input-text input[type=text] {
+     width: 310px;
+    } 
+
+    form .input-text textarea {
+     width:310px;
+   }
+}
+@media screen and (max-width:780px){
+   nav.desktop-nav  {
+     display: none;
+   }
+
+   .list-mobile {
+     display: block;
+   }
+   .menu-mobile {
+    display: block;
+   }
+
+   .title-main p {
+    font-size: 1rem;
+    line-height: 1.9rem;
+   }
+
+    .title-services {
+        text-align: center;
+    }
+
+   .title-services h2 {
+     font-size:1.5rem;
+   
+    }
+
+    .box p {
+      margin:0 auto;
+    }
+
+    .border-bottom {
+       margin: 0 auto;
+    } 
+
+    .compartment-boxs {
+        justify-content: center;
+    } 
+
+    .box .description {
+        text-align: center;
+    }
+
+    .title-testimonials h2 {
+        text-align: center;
+    }
+
+    .card:nth-child(1) {
+        margin-bottom: 1rem;
+    }
+
+    .card:nth-child(2) {
+        margin-bottom: 1rem;
+    }
+
+    .title-gallery  {
+      text-align: center;
+    }
+
+
+    .title-contact h2 {
+      text-align: center;
+    }
+
+    .info-contact {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .input-submit {
+        text-align: center;
+    }
+   
+   
+}
+
+@media screen and (max-width:602px) {
+     .gallery-imagens .image-works{
+        display: block;
+        text-align: center;
+   }
+
+   .image-works img {
+    margin-bottom: 1rem;
+   }
+}
+
+@media screen and (max-width:4305px) {
+    .func-contact p {
+       max-width: 280px;
+       margin: 1rem auto;
+       line-height: 2rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .func-contact p {
+       max-width: 280px;
+       margin: 1rem auto;
+       line-height: 2rem;
+    }
+}
+/*****/
