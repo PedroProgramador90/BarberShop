@@ -351,7 +351,8 @@ section.session-testimonials {
 .division-testimonials {
     display:flex;
     align-items:center;
-    justify-content:space-around;
+    justify-content:center;
+    gap:1.5rem;
     flex-wrap: wrap;
     padding: 1rem;
     position: relative;
@@ -648,3 +649,4 @@ footer {
 }
 
 /*****/
+
