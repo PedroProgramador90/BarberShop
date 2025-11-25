@@ -136,11 +136,11 @@ nav.desktop-nav ul li .active {
     height: 100vh;
     background-color:var(--color-one);
     position: fixed;
-    top: 0;
-    right:0;
+     top: 0;
+     right:-10px;
      overflow: hidden;
     transition:width .5s;
-    z-index: 5;
+    z-index: 6;
 }
 
 .menu-mobile.show-menu {
@@ -645,6 +645,7 @@ footer {
 
 
 /*****/
+
 
 
 
