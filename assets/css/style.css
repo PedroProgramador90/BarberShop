@@ -388,6 +388,15 @@ section.session-testimonials {
     line-height:1.5rem;
     max-width:230px;
 }
+
+.rating-icon {
+    margin-bottom:1rem;
+}
+
+.rating-icon i {
+    color:var(--color-ten);
+}
+
 /****/
 
 /* section session-gallery*/
@@ -646,6 +655,7 @@ footer {
 
 
 /*****/
+
 
 
 
