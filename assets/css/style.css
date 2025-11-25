@@ -250,7 +250,7 @@ button.btn-banner:hover {
 
 button.btn-banner span {
     color:var(--color-two);
-    font-size:1.2rem;
+    font-size:1.5rem;
    font-weight: bold;
     font-family:var(--font-roboto);
 }
@@ -646,6 +646,7 @@ footer {
 
 
 /*****/
+
 
 
 
