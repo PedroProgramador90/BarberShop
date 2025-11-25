@@ -202,15 +202,13 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
 }
 
 .title-main {
-   position: absolute;
-   top: 50%;
-   left:50%;
-   transform: translate(-50%,-50%);
-   text-align:center;
+ text-align:center;
 }
 
 .title-main h2 {
@@ -646,6 +644,7 @@ footer {
 
 
 /*****/
+
 
 
 
